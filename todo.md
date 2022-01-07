@@ -1,9 +1,10 @@
-# NEED TO FOCUS
-plz leave me alone
+# TODO before working : 
+- [ ] Sync setting of vscode
+- [ ] Define a task to run the makefile
+- [ ] Get a Twitch token
+- [ ] 
 
-netdb.h ? 
-locate
 
-# Yea i wish to get hack
+# TODO AFTER (when prog running)
+1- Faire un test dans le chat (ping pong)
 
-# cause everything is file, now leave me alone plz <3 love u
