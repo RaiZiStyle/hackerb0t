@@ -1,9 +1,15 @@
 # C-TwitchBot
 It's a bot for twitch, written in C for Linux (POSIX)
+It's used to mannage my [Twitch channel](https://twitch.tv/raizi_style)
 
-To compile the bot, first replace DEFINEs pertaining to the bot account info (nickname, oath), and the default channel.
 
-Once you've completed that, simply open a terminal, navigate to the source, and use the command: 
-**gcc -o TwitchBot twitchbot.c -lpthread**
+# Install : 
+
+# Run
+
+```Bash
+make run
+```
+
 
 To run the bot,use ./TwitchBot 

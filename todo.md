@@ -1,4 +1,6 @@
 # TODO before working : 
+- [ ] Configure the makefile for the rule "run"
+- [ ] Set up the debugger
 - [ ] Get a Twitch token
 
 

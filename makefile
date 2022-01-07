@@ -1,15 +1,16 @@
 CC=gcc
 CFLAGS=
-# LDFLAGS=-lssl -lcrypto
-LDFLAGS=
+LDFLAGS=-lpthread
+# LDFLAGS=
 SRCDIR=src
 OBJDIR=Obj
 EXEC=TwitchChat.elf
 SRC=$(wildcard $(SRCDIR)/*.c)
 OBJ=$(patsubst $(SRCDIR)/%.c,$(OBJDIR)/%.o,$(SRC))
 
-run: $(EXEC)
-	./$(EXEC)
+# TODO: 
+# run: $(EXEC)
+# 	./TwitchChat.elf
 
 $(EXEC): $(OBJ)
 	$(CC) -o $@ $^ $(LDFLAGS)
