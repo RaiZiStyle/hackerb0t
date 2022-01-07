@@ -8,11 +8,11 @@ Todo : Flush
 #include <pthread.h>
 #include <semaphore.h>
 #include <stdbool.h>
-#include "irc_connection.h"
+#include "../header/irc_connection.h"
 
 
 // RaiZy_dev
-#include <netdb.h>
+
 
 
 //Constants
