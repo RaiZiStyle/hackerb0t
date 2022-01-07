@@ -1,7 +1,5 @@
 # TODO before working : 
-- [ ] Define a task to run the makefile
 - [ ] Get a Twitch token
-- [ ] 
 
 
 # TODO AFTER (when prog running)

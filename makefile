@@ -8,7 +8,8 @@ EXEC=TwitchChat.elf
 SRC=$(wildcard $(SRCDIR)/*.c)
 OBJ=$(patsubst $(SRCDIR)/%.c,$(OBJDIR)/%.o,$(SRC))
 
-all: $(EXEC)
+run: $(EXEC)
+	./$(EXEC)
 
 $(EXEC): $(OBJ)
 	$(CC) -o $@ $^ $(LDFLAGS)
