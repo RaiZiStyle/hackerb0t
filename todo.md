@@ -1,5 +1,4 @@
 # TODO before working : 
-- [ ] Sync setting of vscode
 - [ ] Define a task to run the makefile
 - [ ] Get a Twitch token
 - [ ] 
