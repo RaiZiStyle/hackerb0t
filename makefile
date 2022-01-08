@@ -9,8 +9,8 @@ SRC=$(wildcard $(SRCDIR)/*.c)
 OBJ=$(patsubst $(SRCDIR)/%.c,$(OBJDIR)/%.o,$(SRC))
 
 # TODO: 
-# run: $(EXEC)
-# 	./TwitchChat.elf
+run: $(EXEC)
+	./TwitchChat.elf
 
 $(EXEC): $(OBJ)
 	$(CC) -o $@ $^ $(LDFLAGS)

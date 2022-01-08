@@ -11,5 +11,3 @@ It's used to mannage my [Twitch channel](https://twitch.tv/raizi_style)
 make run
 ```
 
-
-To run the bot,use ./TwitchBot 
