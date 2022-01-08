@@ -8,9 +8,6 @@ EXEC=TwitchChat.elf
 SRC=$(wildcard $(SRCDIR)/*.c)
 OBJ=$(patsubst $(SRCDIR)/%.c,$(OBJDIR)/%.o,$(SRC))
 
-# TODO: 
-run: $(EXEC)
-	./TwitchChat.elf
 
 $(EXEC): $(OBJ)
 	$(CC) -o $@ $^ $(LDFLAGS)
@@ -26,6 +23,10 @@ print: # OBJ : "Obj/game_interface.o Obj/List.o Obj/game.o Obj/main.o"
 
 src: # SRC : "source/game_interface.c source/List.c source/game.c source/main.c"
 	@echo 'SRC : "$(SRC)"'
+
+run: $(EXEC)
+	./TwitchChat.elf
+
 
 # cible: dépendances
 # 	commandes

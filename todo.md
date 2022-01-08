@@ -1,7 +1,7 @@
 # TODO before working : 
-- [ ] Configure the makefile for the rule "run"
-- [ ] Configure the repot to be able to push & pull    
-  - [ ] Might a permission problem
+- [x] Configure the makefile for the rule "run"
+- [x] Configure the repot to be able to push & pull    
+  - [x] Might a permission problem
 - [ ] Set up the debugger
 - [ ] Get a Twitch token
 - [ ] Passer le projet en Cmakefile ?
